@@ -1,0 +1,18 @@
+<?php
+// Database connection parameters
+$host = "localhost";
+$username = "root";   // Change as needed
+$password = "(QR2r;I%v(DR84T";       // Change as needed
+$database = "user_auth_system02";  // Change as needed
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Set character set
+$conn->set_charset("utf8mb4");
+?>
