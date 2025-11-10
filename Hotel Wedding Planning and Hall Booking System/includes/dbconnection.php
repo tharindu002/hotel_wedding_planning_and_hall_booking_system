@@ -2,7 +2,7 @@
 // Database connection parameters
 $host = "localhost";
 $username = "root";   // Change as needed
-$password = "(QR2r;I%v(DR84T";       // Change as needed
+$password = "";       // Change as needed
 $database = "user_auth_system02";  // Change as needed
 
 // Create connection
